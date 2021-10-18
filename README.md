@@ -2,7 +2,7 @@
 # Understanding the network formation pattern for better link prediction
 ----------------------------------------------------------------------------
 
-## Authors
+## Authors:
 yujiating@amss.ac.cn
 
 lywu@amss.ac.cn
