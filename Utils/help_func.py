@@ -101,7 +101,7 @@ def dataname2data(name):
 
 
 def data_loader_cere():
-    G1 = nx.read_graphml('./Simulated/cerebral_cortex_data/rhesus_cerebral.cortex_1.graphml')
+    G1 = nx.read_graphml('./cerebral_cortex_data/rhesus_cerebral.cortex_1.graphml')
     ref_net = np.array(nx.adjacency_matrix(G1).todense())
     ref_net = ref_net + ref_net.T
     ref_net = (ref_net > 0) * 1
