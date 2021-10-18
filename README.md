@@ -1,11 +1,12 @@
------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------
 # Understanding the network formation pattern for better link prediction
------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------
 
 ## Authors
 yujiating@amss.ac.cn
 
 lywu@amss.ac.cn
+
 
 ## Overview:
 - Link prediction using Multiple Order Local Information (MOLI) exploits the local information from the neighbors of different distances, with parameters that can be a prior-driven based on prior knowledge, or data-driven by solving an optimization problem on observed networks. 
@@ -20,6 +21,7 @@ You can reproduce the results of following five experiments of our paper, noting
 3. European Email networks;
 4. Drug-Drug Interaction (DDI) networks;
 5. Protein-Protein Interaction (PPI) networks.
+
 
 ## Notes: 
 1. The results of all experiments have been saved in the corresponding folder of  ./Results/
