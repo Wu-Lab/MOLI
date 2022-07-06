@@ -2,8 +2,11 @@
 # Multiple Order Local Information model for link prediction in complex networks
 ----------------------------------------------------------------------------
 Link prediction using Multiple Order Local Information (MOLI)
+
 ![pipeline](pipeline.svg)
+
 For more details, please check out our publication：https://www.sciencedirect.com/science/article/pii/S0378437122003697?via%3Dihub
+
 ## Authors:
 yujiating@amss.ac.cn
 
