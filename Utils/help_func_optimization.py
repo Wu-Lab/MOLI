@@ -111,13 +111,3 @@ def scipy_constraint_likeihood(W_old, W_new,
     print('*********************************************************************')
     return res.x, (-1) * res.fun
 
-
-
-if __name__ == '__main__':
-    # np.random.seed(100)
-    G = nx.random_graphs.erdos_renyi_graph(50, 0.4)
-    W_old = nx.adjacency_matrix(G).todense()
-    W_old = (W_old + W_old)/2
-
-    W_new = MOLI(W_old, [0, 1])
-    x_opt = scipy_constraint_likeihood(W_old, W_new)
